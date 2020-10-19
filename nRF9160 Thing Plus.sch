@@ -8970,14 +8970,6 @@ Diode with low voltage drop</description>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="P0.12/MD" class="0">
-<segment>
-<wire x1="355.6" y1="215.9" x2="340.36" y2="215.9" width="0.1524" layer="91"/>
-<label x="340.36" y="215.9" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<label x="340.36" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
@@ -9521,11 +9513,17 @@ Diode with low voltage drop</description>
 <pinref part="U5" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
-<net name="MODE" class="0">
+<net name="MODE/WAKE" class="0">
 <segment>
 <wire x1="58.42" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
 <label x="50.8" y="200.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U9" gate="G$2" pin="A1"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="215.9" x2="340.36" y2="215.9" width="0.1524" layer="91"/>
+<label x="340.36" y="215.9" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<label x="340.36" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RTC_PS_EN" class="0">
@@ -10996,12 +10994,11 @@ Diode with low voltage drop</description>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MODE" class="0">
+<net name="MODE/WAKE" class="0">
 <segment>
 <pinref part="Q4" gate="A" pin="G"/>
 <pinref part="SW2" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
-<label x="66.04" y="45.72" size="1.778" layer="95"/>
 <wire x1="68.58" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="45.72" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
