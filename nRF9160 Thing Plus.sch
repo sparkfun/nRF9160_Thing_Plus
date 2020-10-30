@@ -1919,6 +1919,106 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <smd name="C2" x="0" y="-4.575" dx="0.9" dy="0.7" layer="1"/>
 <smd name="C1" x="2.44" y="-4.575" dx="0.9" dy="0.7" layer="1"/>
 </package>
+<package name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:footprint:5807301/2" library_version="94" library_locally_modified="yes">
+<wire x1="-1.08" y1="1.08" x2="1.08" y2="1.08" width="0.127" layer="51"/>
+<wire x1="1.08" y1="1.08" x2="1.08" y2="-1.08" width="0.127" layer="51"/>
+<wire x1="1.08" y1="-1.08" x2="-1.08" y2="-1.08" width="0.127" layer="51"/>
+<wire x1="-1.08" y1="-1.08" x2="-1.08" y2="1.08" width="0.127" layer="51"/>
+<wire x1="-1.24" y1="1.24" x2="1.24" y2="1.24" width="0.05" layer="39"/>
+<wire x1="1.24" y1="1.24" x2="1.24" y2="-1.24" width="0.05" layer="39"/>
+<wire x1="1.24" y1="-1.24" x2="-1.24" y2="-1.24" width="0.05" layer="39"/>
+<wire x1="-1.24" y1="-1.24" x2="-1.24" y2="1.24" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="1.105" x2="-0.61" y2="1.105" width="0.127" layer="21"/>
+<wire x1="1.08" y1="-1.105" x2="0.61" y2="-1.105" width="0.127" layer="21"/>
+<wire x1="-0.61" y1="-1.105" x2="-1.08" y2="-1.105" width="0.127" layer="21"/>
+<wire x1="0.61" y1="1.105" x2="1.08" y2="1.105" width="0.127" layer="21"/>
+<text x="-2.305059375" y="1.5036" size="1.02636875" layer="25">&gt;NAME</text>
+<text x="-2.110390625" y="-2.40618125" size="1.02916875" layer="27">&gt;VALUE</text>
+<circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="21"/>
+<circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="51"/>
+<smd name="2" x="-0.875" y="0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="3" x="-0.875" y="-0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="1" x="-0.875" y="0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="4" x="-0.875" y="-0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="10" x="0.875" y="0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="9" x="0.875" y="0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="8" x="0.875" y="-0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="7" x="0.875" y="-0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
+<smd name="12" x="-0.25" y="0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
+<smd name="11" x="0.25" y="0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
+<smd name="6" x="0.25" y="-0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
+<smd name="5" x="-0.25" y="-0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
+<polygon width="0.127" layer="41">
+<vertex x="-0.5" y="0.5"/>
+<vertex x="-0.5" y="-0.5"/>
+<vertex x="0.5" y="-0.5"/>
+<vertex x="0.5" y="0.5"/>
+</polygon>
+</package>
+<package name="JUMPER-ROUND-NC" library_version="94" library_locally_modified="yes">
+<smd name="P$1" x="-0.3" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0.3" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.2" layer="1">
+<vertex x="-0.1635" y="0.35"/>
+<vertex x="-0.1635" y="-0.35" curve="-180"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="0.1635" y="-0.35"/>
+<vertex x="0.1635" y="0.35" curve="-180"/>
+</polygon>
+<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<polygon width="0.275" layer="29">
+<vertex x="-0.17" y="0.35"/>
+<vertex x="-0.17" y="-0.35" curve="-180"/>
+</polygon>
+<polygon width="0.275" layer="29">
+<vertex x="0.17" y="-0.35"/>
+<vertex x="0.17" y="0.35" curve="-180"/>
+</polygon>
+<rectangle x1="-0.16" y1="-0.488" x2="0.16" y2="0.488" layer="29"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.1524" layer="1"/>
+<wire x1="0.75" y1="0.1" x2="0.75" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-0.1" x2="0.3" y2="-0.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.3" y1="-0.6" x2="-0.2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.6" x2="-0.75" y2="-0.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.75" y1="-0.1" x2="-0.75" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="0.1" x2="-0.2" y2="0.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.2" y1="0.6" x2="0.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.6" x2="0.75" y2="0.1" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="JUMPER-ROUND-3-NO-R" library_version="94" library_locally_modified="yes">
+<smd name="P$1" x="-0.6746" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="0.6746" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.2" layer="1">
+<vertex x="-0.5381" y="0.35"/>
+<vertex x="-0.5381" y="-0.35" curve="-180"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="0.5381" y="-0.35"/>
+<vertex x="0.5381" y="0.35" curve="-180"/>
+</polygon>
+<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<polygon width="0.275" layer="29">
+<vertex x="-0.5446" y="0.35"/>
+<vertex x="-0.5446" y="-0.35" curve="-180"/>
+</polygon>
+<polygon width="0.275" layer="29">
+<vertex x="0.5446" y="-0.35"/>
+<vertex x="0.5446" y="0.35" curve="-180"/>
+</polygon>
+<rectangle x1="-0.56" y1="-0.488" x2="0.56" y2="0.488" layer="29"/>
+<wire x1="0" y1="0" x2="0.6746" y2="0" width="0.1524" layer="1"/>
+<smd name="P$2" x="0" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.3" y1="-0.45" x2="0.3" y2="0.45" layer="1"/>
+<wire x1="-0.6" y1="0.6" x2="0.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.6" x2="1.15" y2="0.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.15" y1="0.1" x2="1.15" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-0.1" x2="0.6" y2="-0.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.6" y1="-0.6" x2="-0.6" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.6" x2="-1.15" y2="-0.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.15" y1="-0.1" x2="-1.15" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="0.1" x2="-0.6" y2="0.6" width="0.127" layer="21" curve="-90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="PLACEHOLDER" urn="urn:adsk.eagle:package:10610054/3" type="empty" library_version="87" library_locally_modified="yes">
@@ -1966,7 +2066,7 @@ chip</description>
 <packageinstance name="IND-2P0X2P0X1P2"/>
 </packageinstances>
 </package3d>
-<package3d name="R0402-M" urn="urn:adsk.eagle:package:19061974/2" type="model" library_version="88" library_locally_modified="yes">
+<package3d name="R0402-M" urn="urn:adsk.eagle:package:19061974/3" type="model" library_version="94" library_locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
@@ -2174,6 +2274,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <package3d name="SOLDER_2X2.5_HALF_VIA" urn="urn:adsk.eagle:package:10610053/1" type="box" library_version="94" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SOLDER_2X2.5_HALF_VIA"/>
+</packageinstances>
+</package3d>
+<package3d name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:package:5807341/2" type="box" library_version="94" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="PQFN50P200X200100-12N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2729,6 +2834,53 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <pin name="DSW" x="-5.08" y="-7.62" length="middle"/>
 <pin name="SHIELD" x="-5.08" y="-10.16" length="middle" direction="pas"/>
 </symbol>
+<symbol name="IC-LIS2DH12TR" urn="urn:adsk.eagle:symbol:5807260/1" library_version="94" library_locally_modified="yes">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.41" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.41" layer="94"/>
+<text x="-12.7386" y="17.8264" size="2.09263125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="2.512" y="-17.8194" size="2.090309375" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="CS" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="INT1" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="INT2" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="RES" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL/SPC" x="-17.78" y="2.54" length="middle" function="clk"/>
+<pin name="SDA/SDI/SDO" x="-17.78" y="0" length="middle"/>
+<pin name="SDO/SAO" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="-2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_IO" x="2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="JUMPER_2_NC_TRACE" library_version="94" library_locally_modified="yes">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="JUMPER_3_1-NC_TRACE" library_version="94" library_locally_modified="yes">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VBUS" urn="urn:adsk.eagle:component:7831599/1" prefix="P+" library_version="57" library_locally_modified="yes">
@@ -3238,7 +3390,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19061974/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19061974/3"/>
 </package3dinstances>
 <technologies>
 <technology name="-0">
@@ -4926,6 +5078,77 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <attribute name="MF" value="JAE Electronics"/>
 <attribute name="MPN" value="SF72S006VBAR2500"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC-LIS2DH12TR" urn="urn:adsk.eagle:component:5807440/3" prefix="U" library_version="94" library_locally_modified="yes">
+<description>ACCEL 2-16G I2C/SPI 12LGA</description>
+<gates>
+<gate name="G$1" symbol="IC-LIS2DH12TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN50P200X200100-12N">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="GND" pad="6 7 8"/>
+<connect gate="G$1" pin="INT1" pad="12"/>
+<connect gate="G$1" pin="INT2" pad="11"/>
+<connect gate="G$1" pin="RES" pad="5"/>
+<connect gate="G$1" pin="SCL/SPC" pad="1"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="4"/>
+<connect gate="G$1" pin="SDO/SAO" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VDD_IO" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5807341/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" MEMS digital output motion sensor: ultra low-power high performance 3-axes femto accelerometer "/>
+<attribute name="DIGIKEYPN" value="497-14851-1-ND"/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MPN" value="LIS2DH12TR"/>
+<attribute name="PACKAGE" value="LGA-12 STMicroelectronics"/>
+<attribute name="PRICE" value="0.85 USD"/>
+<attribute name="VOLTHIGH" value="3.6"/>
+<attribute name="VOLTLOW" value="1.71"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-NC" prefix="JMP" library_version="94" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="JUMPER_2_NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER-ROUND-NC">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-3/1" prefix="JMP" library_version="94" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="JUMPER_3_1-NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER-ROUND-3-NO-R">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7670,15 +7893,15 @@ Diode with low voltage drop</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VCC_5V0" device=""/>
 <part name="P+3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VCC_5V0" device=""/>
-<part name="R7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
+<part name="R2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
-<part name="R8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
+<part name="R8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="P+12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DOCFIELD" device=""/>
@@ -7691,7 +7914,7 @@ Diode with low voltage drop</description>
 <part name="U1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOD-NRF9160-SICA-R" device="" package3d_urn="urn:adsk.eagle:package:19415236/5"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
+<part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V-2" value="4.7u"/>
 <part name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V-2" value="4.7u"/>
@@ -7708,7 +7931,7 @@ Diode with low voltage drop</description>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-330-5%" value="330"/>
+<part name="R11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-330-5%" value="330"/>
 <part name="C10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V-2" value="4.7u"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-TPS6303" device="" package3d_urn="urn:adsk.eagle:package:19061977/3" technology="1DSKR"/>
@@ -7717,10 +7940,10 @@ Diode with low voltage drop</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
 <part name="P+16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="R12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-2K-1%" value="2k"/>
+<part name="R12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-2K-1%" value="2k"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-330-5%" value="330"/>
+<part name="R14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-330-5%" value="330"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" value="Yellow"/>
 <part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V-1" value="1u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7734,7 +7957,7 @@ Diode with low voltage drop</description>
 <part name="P+17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="Q4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-N" device="-SC89" package3d_urn="urn:adsk.eagle:package:19061973/4"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes">
 <variant name="Production" populate="no"/>
@@ -7752,13 +7975,13 @@ Diode with low voltage drop</description>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1K-5%" value="1k"/>
+<part name="R4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1K-5%" value="1k"/>
 <part name="P+19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="R5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="Q5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-N" device="-SC89" package3d_urn="urn:adsk.eagle:package:19061973/4"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-22K-1%" value="22k"/>
-<part name="R16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-33K-1%" value="33k"/>
+<part name="R15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-22K-1%" value="22k"/>
+<part name="R16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-33K-1%" value="33k"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7771,7 +7994,7 @@ Diode with low voltage drop</description>
 <part name="C17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="Y1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="XTAL-ABS07AIG-32.768KHZ-7-T" device="" package3d_urn="urn:adsk.eagle:package:13629267/2" override_package3d_urn="urn:adsk.eagle:package:12413972/3" override_package_urn="urn:adsk.eagle:footprint:12413973/1" override_locally_modified="yes"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -7779,11 +8002,11 @@ Diode with low voltage drop</description>
 <part name="P+10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="Q1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-P" device="-SC89" package3d_urn="urn:adsk.eagle:package:19061973/4"/>
 <part name="P+11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
-<part name="R17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-10K-1%" value="10k"/>
-<part name="R18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-10K-1%" value="10k"/>
+<part name="R17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-10K-1%" value="10k"/>
+<part name="R18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-10K-1%" value="10k"/>
 <part name="P+20" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="U9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-BAV70S" device="" package3d_urn="urn:adsk.eagle:package:5807345/8"/>
-<part name="R1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
+<part name="R1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-56PF-50V-1" value="56p"/>
@@ -7791,7 +8014,7 @@ Diode with low voltage drop</description>
 <part name="SOLDER1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="SOLDER" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-PASTE-ROOM-TEMP-50G">
 <attribute name="MQTY" value="150"/>
 </part>
-<part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
+<part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-SWITCH" device="-MIC94092YC6" package3d_urn="urn:adsk.eagle:package:5807345/8"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7811,7 +8034,7 @@ Diode with low voltage drop</description>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
 <part name="U5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-CP2102N-A02-GQFN24R" device=""/>
-<part name="R22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
+<part name="R22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="U7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-NX3DV2567GU" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-SIM-ST-MFF2" device=""/>
@@ -7824,6 +8047,18 @@ Diode with low voltage drop</description>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1"/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
+<part name="U12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-LIS2DH12TR" device="" package3d_urn="urn:adsk.eagle:package:5807341/2" override_package3d_urn="urn:adsk.eagle:package:5807341/3" override_package_urn="urn:adsk.eagle:footprint:5807301/2"/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C20" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R23" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
+<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="JMP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NC" device=""/>
+<part name="P+21" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
+<part name="JMP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-3/1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8839,6 +9074,12 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="182.88" y="40.132" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="182.88" y="36.068" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
+<instance part="P+21" gate="G$2" x="40.64" y="226.06" smashed="yes">
+<attribute name="VALUE" x="35.56" y="228.6" size="1.778" layer="96"/>
+</instance>
+<instance part="JMP2" gate="G$1" x="40.64" y="215.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="216.281" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9195,6 +9436,11 @@ Diode with low voltage drop</description>
 <pinref part="U3" gate="A" pin="PS_SYNC"/>
 <pinref part="U3" gate="A" pin="VINA"/>
 </segment>
+<segment>
+<pinref part="JMP2" gate="G$1" pin="1"/>
+<pinref part="P+21" gate="G$2" pin="VSYS"/>
+<wire x1="40.64" y1="223.52" x2="40.64" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -9448,10 +9694,15 @@ Diode with low voltage drop</description>
 </net>
 <net name="P0.31/NRF_PS_EN" class="0">
 <segment>
-<wire x1="58.42" y1="215.9" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
-<label x="35.56" y="215.9" size="1.778" layer="95"/>
-<label x="35.56" y="215.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U9" gate="G$1" pin="A1"/>
+<label x="33.02" y="210.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="33.02" y1="210.82" x2="40.64" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="JMP2" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<label x="340.36" y="182.88" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="16"/>
+<wire x1="340.36" y1="182.88" x2="355.6" y2="182.88" width="0.1524" layer="91"/>
+<label x="340.36" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CP2102N-VDD" class="0">
@@ -9563,6 +9814,13 @@ Diode with low voltage drop</description>
 <wire x1="58.42" y1="127" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="CC2"/>
 <wire x1="58.42" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NRF_PS_EN_JMP" class="0">
+<segment>
+<pinref part="JMP2" gate="G$1" pin="2"/>
+<pinref part="U9" gate="G$1" pin="A1"/>
+<wire x1="45.72" y1="215.9" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11730,6 +11988,8 @@ Diode with low voltage drop</description>
 <wire x1="309.70276875" y1="15.25115" x2="309.73323125" y2="15.328340625" width="0" layer="97" curve="-87.5"/>
 <text x="111.76" y="236.22" size="5.08" layer="97">Qwiic</text>
 <text x="96.52" y="152.4" size="5.08" layer="97">SIMs</text>
+<text x="312.42" y="142.24" size="3.81" layer="97">Accelerometer</text>
+<text x="332.74" y="71.12" size="1.778" layer="97">1.71-3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -11851,6 +12111,43 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="193.04" y="107.2253" size="2.546" layer="95"/>
 <attribute name="VALUE" x="193.04" y="75.6821" size="2.54136875" layer="96"/>
 </instance>
+<instance part="U12" gate="G$1" x="330.2" y="91.44" smashed="yes">
+<attribute name="NAME" x="317.4614" y="109.2664" size="2.09263125" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="332.712" y="73.6206" size="2.090309375" layer="96" ratio="10" rot="SR0"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="330.2" y="68.58" smashed="yes">
+<attribute name="VALUE" x="328.295" y="65.405" size="1.778" layer="96"/>
+</instance>
+<instance part="C20" gate="A" x="317.5" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="315.976" y="124.841" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="315.976" y="119.761" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VOLTHIGH" x="315.976" y="117.221" size="1.778" layer="97" rot="MR0"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="317.5" y="116.84" smashed="yes">
+<attribute name="VALUE" x="315.595" y="113.665" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V13" gate="G$1" x="317.5" y="132.08" smashed="yes">
+<attribute name="VALUE" x="314.96" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="302.26" y="78.74" smashed="yes">
+<attribute name="VALUE" x="300.355" y="75.565" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="358.14" y="76.2" smashed="yes">
+<attribute name="VALUE" x="356.235" y="73.025" size="1.778" layer="96"/>
+</instance>
+<instance part="R23" gate="G$1" x="299.72" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="298.2214" y="107.95" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="303.022" y="106.68" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="303.022" y="115.062" size="1.778" layer="97" rot="R90"/>
+<attribute name="POWER" x="305.562" y="115.062" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="+3V14" gate="G$1" x="299.72" y="124.46" smashed="yes">
+<attribute name="VALUE" x="297.18" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="JMP1" gate="G$1" x="363.22" y="101.6" smashed="yes">
+<attribute name="NAME" x="360.68" y="104.14" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="360.68" y="99.06" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11871,6 +12168,12 @@ Diode with low voltage drop</description>
 <label x="134.62" y="205.74" size="1.778" layer="95" rot="MR0"/>
 <label x="134.62" y="205.74" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="284.48" y1="91.44" x2="312.42" y2="91.44" width="0.1524" layer="91"/>
+<label x="284.48" y="91.44" size="1.778" layer="95"/>
+<label x="284.48" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U12" gate="G$1" pin="SDA/SDI/SDO"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11931,6 +12234,26 @@ Diode with low voltage drop</description>
 <pinref part="C18" gate="A" pin="2"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U12" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C20" gate="A" pin="2"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="302.26" y1="81.28" x2="302.26" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="SDO/SAO"/>
+<wire x1="302.26" y1="86.36" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U12" gate="G$1" pin="RES"/>
+<wire x1="347.98" y1="81.28" x2="358.14" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="358.14" y1="81.28" x2="358.14" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -11946,6 +12269,24 @@ Diode with low voltage drop</description>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="101.6" y1="203.2" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="203.2" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C20" gate="A" pin="1"/>
+<pinref part="U12" gate="G$1" pin="VDD"/>
+<wire x1="317.5" y1="127" x2="327.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="127" x2="327.66" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="VDD_IO"/>
+<wire x1="327.66" y1="127" x2="332.74" y2="127" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="127" x2="332.74" y2="111.76" width="0.1524" layer="91"/>
+<junction x="327.66" y="127"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
+<wire x1="317.5" y1="127" x2="317.5" y2="129.54" width="0.1524" layer="91"/>
+<junction x="317.5" y="127"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="299.72" y1="116.84" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSYS" class="0">
@@ -12030,6 +12371,12 @@ Diode with low voltage drop</description>
 <label x="134.62" y="208.28" size="1.778" layer="95" rot="MR0"/>
 <label x="134.62" y="208.28" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="284.48" y="93.98" size="1.778" layer="95"/>
+<label x="284.48" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U12" gate="G$1" pin="SCL/SPC"/>
 </segment>
 </net>
 <net name="SIM_VCC" class="0">
@@ -12225,6 +12572,29 @@ Diode with low voltage drop</description>
 <wire x1="187.96" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="162.56" y="93.98" size="1.778" layer="95"/>
 <pinref part="P1" gate="G$1" pin="I/O"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="CS"/>
+<wire x1="312.42" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="101.6" x2="299.72" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="P0.29/D2" class="0">
+<segment>
+<wire x1="368.3" y1="101.6" x2="386.08" y2="101.6" width="0.1524" layer="91"/>
+<label x="386.08" y="101.6" size="1.778" layer="95" rot="MR0"/>
+<label x="386.08" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="JMP1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="INT1"/>
+<wire x1="347.98" y1="101.6" x2="358.14" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="JMP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
