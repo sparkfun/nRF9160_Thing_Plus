@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -110,20 +110,38 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="_tanames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="136" name="_banames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="137" name="_taDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="138" name="_baDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -166,7 +184,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <packages>
@@ -1673,35 +1691,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <smd name="15" x="-0.2" y="1.175" dx="0.55" dy="0.22" layer="1" rot="R270"/>
 <smd name="16" x="-0.6" y="1.175" dx="0.55" dy="0.22" layer="1" rot="R270"/>
 </package>
-<package name="PSON127P500X600X82-9N" library_version="94" library_locally_modified="yes">
-<rectangle x1="-1.5" y1="0.18" x2="-0.18" y2="1.45" layer="31"/>
-<rectangle x1="0.18" y1="0.18" x2="1.5" y2="1.45" layer="31"/>
-<rectangle x1="-1.5" y1="-1.45" x2="-0.18" y2="-0.18" layer="31"/>
-<rectangle x1="0.18" y1="-1.45" x2="1.5" y2="-0.18" layer="31"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="21"/>
-<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="51"/>
-<wire x1="-3.25" y1="2.75" x2="3.25" y2="2.75" width="0.05" layer="39"/>
-<wire x1="3.25" y1="2.75" x2="3.25" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="3.25" y1="-2.75" x2="-3.25" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="-3.25" y1="-2.75" x2="-3.25" y2="2.75" width="0.05" layer="39"/>
-<text x="-3.81" y="3.81" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
-<smd name="1" x="-2.55" y="1.905" dx="0.71" dy="0.51" layer="1"/>
-<smd name="2" x="-2.55" y="0.635" dx="0.71" dy="0.51" layer="1"/>
-<smd name="3" x="-2.55" y="-0.635" dx="0.71" dy="0.51" layer="1"/>
-<smd name="4" x="-2.55" y="-1.905" dx="0.71" dy="0.51" layer="1"/>
-<smd name="5" x="2.55" y="-1.905" dx="0.71" dy="0.51" layer="1"/>
-<smd name="6" x="2.55" y="-0.635" dx="0.71" dy="0.51" layer="1"/>
-<smd name="7" x="2.55" y="0.635" dx="0.71" dy="0.51" layer="1"/>
-<smd name="8" x="2.55" y="1.905" dx="0.71" dy="0.51" layer="1"/>
-<smd name="9" x="0" y="0" dx="3.6" dy="3.7" layer="1" cream="no"/>
-</package>
 <package name="SON40P170X150X60-9N" library_version="94" library_locally_modified="yes">
 <wire x1="-0.75" y1="0.85" x2="0.75" y2="0.85" width="0.127" layer="51"/>
 <wire x1="0.75" y1="0.85" x2="0.75" y2="-0.85" width="0.127" layer="51"/>
@@ -2786,20 +2775,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <pin name="4Y1" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <text x="-15.24" y="20.32" size="1.778" layer="97">&gt;NAME</text>
 <text x="5.08" y="-20.32" size="1.778" layer="97">&gt;MPN</text>
-</symbol>
-<symbol name="SIM-ST-MFF2" library_version="94" library_locally_modified="yes">
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
-<text x="-10.16" y="13.462" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="15.24" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="I/O" x="-15.24" y="-2.54" length="middle"/>
-<pin name="VCC" x="15.24" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="RST" x="-15.24" y="5.08" length="middle" direction="in"/>
-<pin name="CLK" x="-15.24" y="2.54" length="middle" direction="in" function="clk"/>
-<pin name="EPAD" x="15.24" y="-7.62" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="EMIF03-SIM02M8" library_version="94" library_locally_modified="yes">
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
@@ -4994,32 +4969,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <attribute name="DESC" value="IC ANLG SWITCH 4PDT 16XQFN" constant="no"/>
 <attribute name="DIGIKEYPN" value="568-5206-1-ND" constant="no"/>
 <attribute name="MPN" value="NX3DV2567GU,115" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IC-SIM-ST-MFF2" prefix="U" library_version="94" library_locally_modified="yes">
-<description>GLOBAL IOT EMBEDDED SIM CHIP </description>
-<gates>
-<gate name="G$1" symbol="SIM-ST-MFF2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PSON127P500X600X82-9N">
-<connects>
-<connect gate="G$1" pin="CLK" pad="6"/>
-<connect gate="G$1" pin="EPAD" pad="9"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="I/O" pad="3"/>
-<connect gate="G$1" pin="RST" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESC" value=" GLOBAL IOT EMBEDDED SIM CHIP "/>
-<attribute name="DIGIKEYPN" value="1887-1002-1-ND"/>
-<attribute name="MF" value="Hologram, Inc."/>
-<attribute name="MPN" value="SIM-ST-MFF2"/>
 </technology>
 </technologies>
 </device>
@@ -7827,6 +7776,126 @@ Diode with low voltage drop</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="nrF9160 Thing Plus temp">
+<packages>
+<package name="PSON127P500X600X82-9N_NO_CREAM" library_version="94" library_locally_modified="yes">
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="21"/>
+<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="51"/>
+<wire x1="-3.25" y1="2.75" x2="3.25" y2="2.75" width="0.05" layer="39"/>
+<wire x1="3.25" y1="2.75" x2="3.25" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-2.75" x2="-3.25" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="-2.75" x2="-3.25" y2="2.75" width="0.05" layer="39"/>
+<text x="-3.81" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1" x="-2.55" y="1.905" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="2" x="-2.55" y="0.635" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="3" x="-2.55" y="-0.635" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="4" x="-2.55" y="-1.905" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="5" x="2.55" y="-1.905" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="6" x="2.55" y="-0.635" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="7" x="2.55" y="0.635" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="8" x="2.55" y="1.905" dx="0.71" dy="0.51" layer="1" cream="no"/>
+<smd name="9" x="0" y="0" dx="3.6" dy="3.7" layer="1" cream="no"/>
+</package>
+<package name="PSON127P500X600X82-9N" library_version="94" library_locally_modified="yes">
+<rectangle x1="-1.5" y1="0.18" x2="-0.18" y2="1.45" layer="31"/>
+<rectangle x1="0.18" y1="0.18" x2="1.5" y2="1.45" layer="31"/>
+<rectangle x1="-1.5" y1="-1.45" x2="-0.18" y2="-0.18" layer="31"/>
+<rectangle x1="0.18" y1="-1.45" x2="1.5" y2="-0.18" layer="31"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="21"/>
+<circle x="-3.6" y="2" radius="0.14141875" width="0.3" layer="51"/>
+<wire x1="-3.25" y1="2.75" x2="3.25" y2="2.75" width="0.05" layer="39"/>
+<wire x1="3.25" y1="2.75" x2="3.25" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-2.75" x2="-3.25" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="-2.75" x2="-3.25" y2="2.75" width="0.05" layer="39"/>
+<text x="-3.81" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1" x="-2.55" y="1.905" dx="0.71" dy="0.51" layer="1"/>
+<smd name="2" x="-2.55" y="0.635" dx="0.71" dy="0.51" layer="1"/>
+<smd name="3" x="-2.55" y="-0.635" dx="0.71" dy="0.51" layer="1"/>
+<smd name="4" x="-2.55" y="-1.905" dx="0.71" dy="0.51" layer="1"/>
+<smd name="5" x="2.55" y="-1.905" dx="0.71" dy="0.51" layer="1"/>
+<smd name="6" x="2.55" y="-0.635" dx="0.71" dy="0.51" layer="1"/>
+<smd name="7" x="2.55" y="0.635" dx="0.71" dy="0.51" layer="1"/>
+<smd name="8" x="2.55" y="1.905" dx="0.71" dy="0.51" layer="1"/>
+<smd name="9" x="0" y="0" dx="3.6" dy="3.7" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SIM-ST-MFF2">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
+<text x="-10.16" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="15.24" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="I/O" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VCC" x="15.24" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="RST" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="CLK" x="-15.24" y="2.54" length="middle" direction="in" function="clk"/>
+<pin name="EPAD" x="15.24" y="-7.62" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IC-SIM-ST-MFF2" prefix="U">
+<description>GLOBAL IOT EMBEDDED SIM CHIP </description>
+<gates>
+<gate name="G$1" symbol="SIM-ST-MFF2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSON127P500X600X82-9N">
+<connects>
+<connect gate="G$1" pin="CLK" pad="6"/>
+<connect gate="G$1" pin="EPAD" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="I/O" pad="3"/>
+<connect gate="G$1" pin="RST" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value=" GLOBAL IOT EMBEDDED SIM CHIP "/>
+<attribute name="DIGIKEYPN" value="1887-1002-1-ND"/>
+<attribute name="MF" value="Hologram, Inc."/>
+<attribute name="MPN" value="SIM-ST-MFF2"/>
+</technology>
+</technologies>
+</device>
+<device name="NO_CREAM" package="PSON127P500X600X82-9N_NO_CREAM">
+<connects>
+<connect gate="G$1" pin="CLK" pad="6"/>
+<connect gate="G$1" pin="EPAD" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="I/O" pad="3"/>
+<connect gate="G$1" pin="RST" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="GLOBAL IOT EMBEDDED SIM CHIP"/>
+<attribute name="DIGIKEYPN" value="1887-1002-1-ND"/>
+<attribute name="MF" value="Hologram, Inc."/>
+<attribute name="MPN" value="SIM-ST-MFF2"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Jared Wolff"/>
@@ -8037,7 +8106,7 @@ Diode with low voltage drop</description>
 <part name="R22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="U7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-NX3DV2567GU" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-SIM-ST-MFF2" device=""/>
+<part name="U10" library="nrF9160 Thing Plus temp" deviceset="IC-SIM-ST-MFF2" device="NO_CREAM" value="IC-SIM-ST-MFF2"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-EMIF03-SIM02M8" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
