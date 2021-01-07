@@ -6649,6 +6649,10 @@ chip</description>
 <part name="J8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-FTSH-105-XX-X-DV" device="" override_package3d_urn="urn:adsk.eagle:package:25112329/2" override_package_urn="urn:adsk.eagle:footprint:25112332/1" override_locally_modified="yes"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-SIM" device="" package3d_urn="urn:adsk.eagle:package:19415237/3" technology="-104224-0820"/>
+<part name="TP3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9286,6 +9290,18 @@ chip</description>
 <attribute name="NAME" x="358.1262" y="231.9168" size="1.780409375" layer="95"/>
 <attribute name="VALUE" x="358.1304" y="208.268" size="1.77968125" layer="96"/>
 </instance>
+<instance part="TP3" gate="G$1" x="350.52" y="223.52" smashed="yes">
+<attribute name="NAME" x="349.25" y="224.79" size="1.778" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="350.52" y="215.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="351.79" y="214.63" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="TP5" gate="G$1" x="386.08" y="231.14" smashed="yes">
+<attribute name="NAME" x="384.81" y="232.41" size="1.778" layer="95"/>
+</instance>
+<instance part="TP6" gate="G$1" x="386.08" y="223.52" smashed="yes">
+<attribute name="NAME" x="384.81" y="224.79" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9467,9 +9483,12 @@ chip</description>
 <pinref part="U1" gate="G$1" pin="SIM_CLK"/>
 </segment>
 <segment>
-<wire x1="353.06" y1="220.98" x2="335.28" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="220.98" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
 <label x="335.28" y="220.98" size="1.778" layer="95"/>
 <pinref part="J6" gate="G$1" pin="CLK"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="350.52" y1="220.98" x2="335.28" y2="220.98" width="0.1524" layer="91"/>
+<junction x="350.52" y="220.98"/>
 </segment>
 </net>
 <net name="SIM_RST" class="0">
@@ -9479,9 +9498,12 @@ chip</description>
 <pinref part="U1" gate="G$1" pin="SIM_RST"/>
 </segment>
 <segment>
-<wire x1="353.06" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
 <label x="335.28" y="218.44" size="1.778" layer="95"/>
 <pinref part="J6" gate="G$1" pin="RST"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="350.52" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
+<junction x="350.52" y="218.44"/>
 </segment>
 </net>
 <net name="SIM_IO" class="0">
@@ -9492,8 +9514,11 @@ chip</description>
 </segment>
 <segment>
 <label x="398.78" y="220.98" size="1.778" layer="95" rot="MR0"/>
-<wire x1="383.54" y1="220.98" x2="398.78" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="220.98" x2="386.08" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="I/O"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="386.08" y1="220.98" x2="398.78" y2="220.98" width="0.1524" layer="91"/>
+<junction x="386.08" y="220.98"/>
 </segment>
 </net>
 <net name="SIM_VCC" class="0">
@@ -9503,9 +9528,12 @@ chip</description>
 <pinref part="U1" gate="G$1" pin="SIM_1V8"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="228.6" x2="398.78" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="228.6" x2="386.08" y2="228.6" width="0.1524" layer="91"/>
 <label x="398.78" y="228.6" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="VCC"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="386.08" y1="228.6" x2="398.78" y2="228.6" width="0.1524" layer="91"/>
+<junction x="386.08" y="228.6"/>
 </segment>
 </net>
 <net name="ANT_FILT" class="2">
