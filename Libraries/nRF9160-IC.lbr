@@ -1585,6 +1585,12 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <attribute name="MPN" value="W25Q16JVZPIQ"/>
 <attribute name="PROD_ID" value="" constant="no"/>
 </technology>
+<technology name="-W25Q32JVZPIQ">
+<attribute name="DESC" value="IC FLASH 32M SPI 133MHZ 8WSON" constant="no"/>
+<attribute name="DIGIKEYPN" value="W25Q32JVZPIQ-ND" constant="no"/>
+<attribute name="MPN" value="W25Q32JVZPIQ" constant="no"/>
+<attribute name="PROD_ID" value="IC-15681" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
