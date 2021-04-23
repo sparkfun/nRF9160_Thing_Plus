@@ -1,7 +1,7 @@
 SparkFun nRF9160 Thing Plus
 ========================================
 
-![SparkFun nRF9160 Thing Plus](URL for picture of part)
+![SparkFun nRF9160 Thing Plus](https://cdn.sparkfun.com/assets/parts/1/6/3/6/0/17354-SparkFun_Thing_Plus_-_nRF9160-01.jpg)
 
 [*SparkFun nRF9160 Thing Plus (17354)*](https://www.sparkfun.com/products/17354)
 
