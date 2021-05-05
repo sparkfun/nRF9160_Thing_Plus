@@ -8,12 +8,15 @@ Hardware
 
 **Circuit Dojo's hardware is released under [CERN Open Hardware Licence Version 2 - Weakly Reciprocal](https://ohwr.org/cern_ohl_w_v2.txt).**
 
+For anything SparkFun specific, please refer to the SparkFun License Information listed below. 
+
 Code
 --------
 
 **Circuit Dojo code, firmware, and software is released under the [Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).**
 
 
+For anything SparkFun specific, please refer to the SparkFun License Information listed below. 
 
 
 SparkFun License Information
