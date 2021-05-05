@@ -11,7 +11,7 @@ Hardware
 Code
 --------
 
-**Circuit Dojo code, firmware, and software is released under the Apache License(http://opensource.org/licenses/MIT).**
+**Circuit Dojo code, firmware, and software is released under the [Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).**
 
 
 
