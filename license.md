@@ -1,3 +1,21 @@
+Circuit Dojo License Information
+============================
+
+Circuit Dojo uses two different licenses — one for hardware and one for code.
+
+Hardware
+---------
+
+**Circuit Dojo's hardware is released under [CERN Open Hardware Licence Version 2 - Weakly Reciprocal](https://ohwr.org/cern_ohl_w_v2.txt).**
+
+Code
+--------
+
+**Circuit Dojo code, firmware, and software is released under the Apache License(http://opensource.org/licenses/MIT).**
+
+
+
+
 SparkFun License Information
 ============================
 
