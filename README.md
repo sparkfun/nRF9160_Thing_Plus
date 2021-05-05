@@ -38,4 +38,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_Props to our friends over at [Circuit Dojo](https://docs.jaredwolff.com/nrf9160-getting-started.html)_
+_Designed in collaboration with [Jared Wolff](https://www.jaredwolff.com/) over at Circuit Dojo._
