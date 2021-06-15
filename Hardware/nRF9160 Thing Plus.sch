@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -6627,6 +6627,7 @@ chip</description>
 <part name="TP5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 <part name="TP6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 <part name="U$24" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7379,13 +7380,13 @@ chip</description>
 <instance part="GND22" gate="1" x="93.98" y="231.14" smashed="yes">
 <attribute name="VALUE" x="91.44" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="A" x="111.76" y="198.12" smashed="yes">
-<attribute name="NAME" x="113.284" y="198.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.284" y="193.421" size="1.778" layer="96"/>
-<attribute name="VOLTHIGH" x="113.284" y="190.881" size="1.778" layer="97"/>
+<instance part="C6" gate="A" x="106.68" y="228.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="105.156" y="228.981" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="105.156" y="223.901" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VOLTHIGH" x="105.156" y="221.361" size="1.778" layer="97" rot="MR0"/>
 </instance>
-<instance part="GND21" gate="1" x="111.76" y="190.5" smashed="yes">
-<attribute name="VALUE" x="109.22" y="187.96" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="106.68" y="220.98" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="109.22" y="218.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="182.88" y="233.68" smashed="yes">
 <attribute name="VALUE" x="180.34" y="228.6" size="1.778" layer="96" rot="R90"/>
@@ -7645,6 +7646,9 @@ chip</description>
 <attribute name="NAME" x="38.1" y="216.281" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="U$24" gate="G$1" x="416.56" y="48.26" smashed="yes"/>
+<instance part="GND2" gate="1" x="114.3" y="193.04" smashed="yes">
+<attribute name="VALUE" x="111.76" y="190.5" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7774,6 +7778,12 @@ chip</description>
 <segment>
 <pinref part="R20" gate="R1" pin="1"/>
 <pinref part="GND44" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="114.3" y1="195.58" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="PS_SYNC"/>
+<wire x1="114.3" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7987,19 +7997,16 @@ chip</description>
 <pinref part="C7" gate="A" pin="1"/>
 <junction x="93.98" y="241.3"/>
 <wire x1="116.84" y1="218.44" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="218.44" x2="111.76" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="C6" gate="A" pin="1"/>
-<wire x1="111.76" y1="205.74" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
-<junction x="111.76" y="205.74"/>
 <wire x1="111.76" y1="218.44" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
-<junction x="111.76" y="218.44"/>
 <junction x="111.76" y="223.52"/>
 <wire x1="93.98" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="241.3" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="241.3" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VIN"/>
-<pinref part="U3" gate="A" pin="PS_SYNC"/>
 <pinref part="U3" gate="A" pin="VINA"/>
+<wire x1="111.76" y1="231.14" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="231.14" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
+<junction x="111.76" y="231.14"/>
 </segment>
 <segment>
 <pinref part="JMP2" gate="G$1" pin="1"/>
